@@ -1,0 +1,60 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\ryosuke\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js start
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\Amazon\AWSCLIV2\;C:\Users\ryosuke\AppData\Local\Microsoft\WindowsApps;C:\script\shortcut;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Java\jdk1.8.0_251\bin;C:\Users\ryosuke\AppData\Roaming\npm
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  14.8.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\ryosuke\Documents\react\webpack-crash-course\package.json: Unexpected string in JSON at position 162
+      at JSON.parse (<anonymous>)
+      at C:\Users\ryosuke\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\ryosuke\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:304:30)
+      at C:\Users\ryosuke\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "webpack-crash-course",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start" : "webpack-dev-server --open"
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/aion0721/webpack-crash-course.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/aion0721/webpack-crash-course/issues"
+    },
+    "homepage": "https://github.com/aion0721/webpack-crash-course#readme",
+    "devDependencies": {
+      "live-server": "^1.2.1",
+      "webpack": "^4.29.0",
+      "webpack-cli": "^3.2.1",
+      "webpack-dev-server": "^3.1.14"
+    },
+    "dependencies": {
+      "lodash": "^4.17.11"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
